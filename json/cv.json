@@ -1,0 +1,62 @@
+{
+
+  "education":[
+      
+      " Kunskapskällan: El och energi Webb och app 2015-2017",
+      " Chas Academy Yrekshögskola: Frontend mobil och webb 2022-2024"
+
+     ],
+
+  
+  "employment":[
+
+      {
+          "heading": "Söder & Company",
+          "jobTitle": "Timanställd",
+          "location": "Vårgårda",
+          "about": "Jobbade mest med att pack ur däck ur containrar samt märka och sortera däcken: 2017"
+          
+      },
+      {
+          "heading": "Söder & Company",
+          "jobTitle": "Behovanställd",
+          "location":"Vårgårda",
+          "about":"Var Behovanställd på Nordic snus där jag fick jobba natt 23.00 - 07.00 fem dagar i veckan: 2018"
+      },
+
+      {
+          "heading": "Wise IT",
+          "jobTitle": "Timanställd",
+          "location": "Herrljunga kommun",
+          "about":"På Wise IT jobbade vi med att leverera och starta upp datorer till folk som jobbad i kommunehuset: 2020"
+      },
+
+      {
+          "heading":"Effektiv",
+          "jobTitle": "Behovanställd",
+          "location": "Borås",
+          "about":"Fick jobb som lagerarbetare på H&M: 2021"
+      },
+
+      {
+        "heading":"H&M",
+        "jobTitle": "Tillsvidaranställd",
+        "location": "Borås",
+        "about":"Efter två månader via Effektiv fick jag anställning från H&M och började jobba vidare som lagerarbetare däe jag i nu läget är fast anställd: 2022"
+    }
+
+  ],
+
+  "language":
+
+      { 
+          "Swedish": "Svenska",
+          "English":" Engelska"
+      }
+  ,
+
+  "about me":[
+      
+          "Är en positiv och framåtriktad person som har ett stort intresse för kodning, Photoshop och IT överlag. På min fritid spenderar jag mest tid åt familj och vänner men försöker även hålla mig aktiv så jag brukar gymma 4-5 dagar i veckan."
+      
+  ]}

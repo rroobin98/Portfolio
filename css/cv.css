@@ -1,0 +1,93 @@
+.project{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    background:linear-gradient(rgb(255, 255, 255),rgba(68, 68, 68, 0.7));
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.container .projectcardcv{
+    position: relative;
+    width:  280px;
+    height: 400px;
+    margin: 50px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background-image: url("/img/cv.png");
+    background-size: 100% 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px) ;
+}
+.container .projectcardcv .content{
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+}
+.container .projectcardcv:hover .content{
+    transform: translateY(0px);
+    opacity: 1;
+    background-color: #24262b;
+}
+.container .projectcardcv .content h2{
+    position: absolute;
+    top: -60px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(255, 1, 1, 0.116);
+    pointer-events: none;
+}
+.container .projectcardcv .content h3{
+    font-size: 1.8em;
+    color: #ffffff;
+    z-index: 1;
+}
+.container .projectcardcv .content p{
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: 300;
+}
+.container .projectcardcv .content a{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: #f44336;
+    color: #ffffff;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.div-json{
+    text-align: center;
+
+}
+
+.h1-json{
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.h1-json{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #000;
+}
